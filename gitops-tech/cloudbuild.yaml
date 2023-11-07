@@ -1,6 +1,6 @@
 steps:
 # build the binaries
-- name: 'gcr.io/cloud-builders/go'
+- name: 'gcr.io/cloud-builders/go2'
   args: ['build', '-o', 'hello', 'src/main.go']
 
 # build the container image, tag it and push it to the Google Container Registry of our project
